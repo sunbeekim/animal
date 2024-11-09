@@ -1,4 +1,5 @@
 package basic.animal;
+
 //setter, getter를 animal에서 구현 안 해도 됨. 
 //
 public abstract class Animal implements AnimalInterface {
@@ -15,14 +16,14 @@ public abstract class Animal implements AnimalInterface {
 	public Animal(String species, String name, int maxDistance, String region, String color, int size, int age,
 			String sound) {
 		super();
-		this.species = species; //종
-		this.name = name; //이름
-		this.maxDistance = maxDistance;//최대이동거리
-		this.region = region;//출몰지역
-		this.color = color;//색
-		this.size = size;//크기
-		this.age = age;//나이
-		this.sound = sound;//소리
+		this.species = species; // 종
+		this.name = name; // 이름
+		this.maxDistance = maxDistance;// 최대이동거리
+		this.region = region;// 출몰지역
+		this.color = color;// 색
+		this.size = size;// 크기
+		this.age = age;// 나이
+		this.sound = sound;// 소리
 	}
 
 	public Animal() {

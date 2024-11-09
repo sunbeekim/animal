@@ -1,5 +1,5 @@
 package basic.animal;
 
-public class MenuUi {
+public class ZooTotalUi {
 
 }

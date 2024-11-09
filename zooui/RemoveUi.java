@@ -1,4 +1,4 @@
-package basic.animal;
+package basic.animal.zooui;
 
 public class RemoveUi {
 

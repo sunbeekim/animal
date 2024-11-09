@@ -37,7 +37,7 @@ public class Fish extends Animal implements SwimProperties {
 		this.depthLimit = depthLimit;
 	}
 
-	//(물고기는 소리를 내지 않습니다.)오버라이드 super생성자에서도 sound값은 null로 지정
+	// (물고기는 소리를 내지 않습니다.)오버라이드 super생성자에서도 sound값은 null로 지정
 	@Override
 	public String getSound() {
 		return sound;

@@ -1,11 +1,10 @@
 package basic.animal;
 
-import basic.animal.animalinterface.Soundable;
-
-public class Bird extends Animal /*implements Soundable 원래는 여기들어감*/{
+public class Bird extends Animal /* implements Soundable 원래는 여기들어감 */ {
 	public Bird() {
 		super();
 	}
+
 	public Bird(String species, String name, int maxDistance, String region, String color, int size, int age,
 			String sound) {
 		super(species, name, maxDistance, region, color, size, age, sound);
@@ -13,8 +12,8 @@ public class Bird extends Animal /*implements Soundable 원래는 여기들어�
 	}
 
 	@Override
-	public String toString() {//오버라이드
+	public String toString() {// 오버라이드
 		// TODO Auto-generated method stub
-		return "Bird" + super.toString();//버드+animal의 toString 리턴
+		return "Bird" + super.toString();// 버드+animal의 toString 리턴
 	}
 }
