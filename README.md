@@ -6,3 +6,4 @@
 6. Bird, Fish는 구현 class 입니다.
 7. interface는 BasicInformation을 abstract 선언을 해서 상속받아 Child interface 클래스를 만들었습니다.
 8. 강의내용을 최대한 포함해서 하려고 하다보니 억지로 적용한 것도 몇 있습니다.
+9. ui는 react에서 하는게 맞는 것 같아 생략했습니다.
